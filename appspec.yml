@@ -7,4 +7,4 @@ Resources:
         TaskDefinition: "arn:aws:ecs:us-east-1:545009829015:task-definition/blue-green:1"
         LoadBalancerInfo:
           ContainerName: "bluegreencontainer"
-          ContainerPort: 8080
+          ContainerPort: 80
