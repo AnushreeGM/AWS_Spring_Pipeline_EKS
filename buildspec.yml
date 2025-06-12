@@ -9,7 +9,7 @@ phases:
       - aws --version
       - ACCOUNT_ID=545009829015
       - REGION=us-east-1
-      - REPO_NAME=bluegreenproject
+      - REPO_NAME=blue-green-repo
       - IMAGE_TAG=latest
       - aws ecr get-login-password --region $REGION | docker login --username AWS --password-stdin $ACCOUNT_ID.dkr.ecr.$REGION.amazonaws.com
 
